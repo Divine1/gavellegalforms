@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+43.47 * 50 = 2173.5
+23.92 * 70 = 1674.4
+28.75 × 70 = 2012
+24.84 × 70 = 1738
+29.52 * 50 = 1476
+
+total 9073
+
+4
+
+310

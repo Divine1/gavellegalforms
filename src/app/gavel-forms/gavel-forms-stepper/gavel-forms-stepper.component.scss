@@ -1,0 +1,32 @@
+:host{
+    .form-title{
+        text-align: center;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+    .gavel-forms-stepper{
+        // width: 30%;
+        width: 18rem;
+        ::ng-deep{
+            .clr-accordion-header-button{
+                padding: 0.4rem;
+                outline: none;
+                font-size: 0.7rem;
+            }
+            .clr-accordion-inner-content{
+                padding: .5rem 2.7rem;
+            }
+
+
+            clr-input-container,clr-select-container{
+
+                margin-top: 0.5rem;
+                label.clr-control-label,
+                label.clr-control-label{
+                    width: 4rem;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,24 @@
+:host{
+    display: block;
+    padding: 1rem;
+
+    .particulars{
+        display: table;
+        margin: 1rem auto;
+        
+        .particulars-row{
+            display: table-row;
+            .particulars-cell{
+                display: table-cell;
+                border-bottom: 1px solid black;
+                padding: 0.2rem 0.3rem;
+            }
+            .particulars-cell:not(:last-child){
+                border-right: 1px solid black;
+
+            }
+            
+        }
+        
+    }
+}
