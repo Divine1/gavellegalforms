@@ -51,6 +51,9 @@ export class GavelFormsStepperComponent implements OnInit {
       licensee : this.formBuilder.group({
         ...details_licensor_licensee
       }),
+      agreement : this.formBuilder.group({
+        totalduration : ['', Validators.required]
+      }),
     });
 
   }
@@ -64,6 +67,6 @@ export class GavelFormsStepperComponent implements OnInit {
   }
   submit() {
     console.log('GavelFormsStepperComponent form submit', this.form.value);
-    this.onSubmit.emit(this.form)
+    //this.onSubmit.emit(this.form)
   }
 }

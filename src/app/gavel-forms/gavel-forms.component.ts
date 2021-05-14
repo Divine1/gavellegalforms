@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import {Ilicensor_licensee,details_licensor_licensee} from './gavelforms.constans';
 
 @Component({
   selector: 'app-gavel-forms',
@@ -9,13 +10,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class GavelFormsComponent implements OnInit {
   
   form : {
-      first : string,
-      last : string
+    licensor:Ilicensor_licensee,
+    licensee:Ilicensor_licensee
   };  
   constructor() {
     this.form = {
-      first : "",
-      last : ""
+      licensor : {
+        ...details_licensor_licensee
+      },
+      licensee : {
+        ...details_licensor_licensee
+      }
     };
   }
 
@@ -24,8 +29,9 @@ export class GavelFormsComponent implements OnInit {
   }
   //submit(form:FormGroup) {
   submit(form:any) {
-    console.log('GavelFormsComponent form submit', form.value);
-    //this.form = form.value.name;
-    this.form = form.name;
+    console.log('GavelFormsComponent form submit', form);
+    
+    this.form = form;
+    //this.form = form.name;
   }
 }

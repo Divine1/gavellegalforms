@@ -10,19 +10,19 @@
       <clr-step-content *clrIfExpanded>
         <clr-input-container layout="horizontal">
           <label>Full Name</label>
-          <input clrInput formControlName="licensor.fullname" />
+          <input clrInput formControlName="fullname" />
           <clr-control-error *clrIfError="'required'">Full Name Required</clr-control-error>
         </clr-input-container>
   
         <clr-input-container>
           <label>Age</label>
-          <input clrInput formControlName="licensor.age" />
+          <input clrInput formControlName="age" />
           <clr-control-error *clrIfError="'required'">Age Required</clr-control-error>
         </clr-input-container>
 
         <clr-select-container>
           <label>Gender</label>
-          <select clrSelect formControlName="licensor.gender">
+          <select clrSelect formControlName="gender">
             <option value="one">One</option>
             <option value="two">Two</option>
             <option value="three">Three</option>
@@ -31,43 +31,43 @@
 
         <clr-input-container>
           <label>UID</label>
-          <input clrInput formControlName="licensor.uid" />
+          <input clrInput formControlName="uid" />
           <clr-control-error *clrIfError="'required'">UID Required</clr-control-error>
         </clr-input-container>
   
         <clr-input-container>
           <label>PAN</label>
-          <input clrInput formControlName="licensor.pan" />
+          <input clrInput formControlName="pan" />
           <clr-control-error *clrIfError="'required'">PAN Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Address</label>
-          <input clrInput formControlName="licensor.address" />
+          <input clrInput formControlName="address" />
           <clr-control-error *clrIfError="'required'">Address Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>City</label>
-          <input clrInput formControlName="licensor.city" />
+          <input clrInput formControlName="city" />
           <clr-control-error *clrIfError="'required'">City Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Pincode</label>
-          <input clrInput formControlName="licensor.pincode" />
+          <input clrInput formControlName="pincode" />
           <clr-control-error *clrIfError="'required'">Pincode Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Phone</label>
-          <input clrInput formControlName="licensor.phone" />
+          <input clrInput formControlName="phone" />
           <clr-control-error *clrIfError="'required'">Phone Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Email</label>
-          <input clrInput formControlName="licensor.email" />
+          <input clrInput formControlName="email" />
           <clr-control-error *clrIfError="'required'">Email Required</clr-control-error>
         </clr-input-container>
         <button clrStepButton="next">next</button>
@@ -79,19 +79,19 @@
       <clr-step-content *clrIfExpanded>
         <clr-input-container layout="horizontal">
           <label>Full Name</label>
-          <input clrInput formControlName="licensor.fullname" />
+          <input clrInput formControlName="fullname" />
           <clr-control-error *clrIfError="'required'">Full Name Required</clr-control-error>
         </clr-input-container>
   
         <clr-input-container>
           <label>Age</label>
-          <input clrInput formControlName="licensor.age" />
+          <input clrInput formControlName="age" />
           <clr-control-error *clrIfError="'required'">Age Required</clr-control-error>
         </clr-input-container>
 
         <clr-select-container>
           <label>Gender</label>
-          <select clrSelect formControlName="licensor.gender">
+          <select clrSelect formControlName="gender">
             <option value="one">One</option>
             <option value="two">Two</option>
             <option value="three">Three</option>
@@ -100,46 +100,62 @@
 
         <clr-input-container>
           <label>UID</label>
-          <input clrInput formControlName="licensor.uid" />
+          <input clrInput formControlName="uid" />
           <clr-control-error *clrIfError="'required'">UID Required</clr-control-error>
         </clr-input-container>
   
         <clr-input-container>
           <label>PAN</label>
-          <input clrInput formControlName="licensor.pan" />
+          <input clrInput formControlName="pan" />
           <clr-control-error *clrIfError="'required'">PAN Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Address</label>
-          <input clrInput formControlName="licensor.address" />
+          <input clrInput formControlName="address" />
           <clr-control-error *clrIfError="'required'">Address Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>City</label>
-          <input clrInput formControlName="licensor.city" />
+          <input clrInput formControlName="city" />
           <clr-control-error *clrIfError="'required'">City Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Pincode</label>
-          <input clrInput formControlName="licensor.pincode" />
+          <input clrInput formControlName="pincode" />
           <clr-control-error *clrIfError="'required'">Pincode Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Phone</label>
-          <input clrInput formControlName="licensor.phone" />
+          <input clrInput formControlName="phone" />
           <clr-control-error *clrIfError="'required'">Phone Required</clr-control-error>
         </clr-input-container>
 
         <clr-input-container>
           <label>Email</label>
-          <input clrInput formControlName="licensor.email" />
+          <input clrInput formControlName="email" />
           <clr-control-error *clrIfError="'required'">Email Required</clr-control-error>
         </clr-input-container>
         <button clrStepButton="next">next</button>
+        <!-- <button clrStepButton="submit">submit</button> -->
+
       </clr-step-content>
+</clr-stepper-panel>
+      <clr-stepper-panel formGroupName="agreement">
+        <clr-step-title>Agreement</clr-step-title>
+        <clr-step-content *clrIfExpanded>
+          <clr-input-container layout="horizontal">
+            <label>Total Duration in months (usually 11)</label>
+            <input clrInput formControlName="totalduration" />
+            <clr-control-error *clrIfError="'required'">Total Duration Required</clr-control-error>
+          </clr-input-container>
+    
+          <!-- <button clrStepButton="next">next</button> -->
+          <button clrStepButton="submit">submit</button>
+  
+        </clr-step-content>
     </clr-stepper-panel>
 </form>

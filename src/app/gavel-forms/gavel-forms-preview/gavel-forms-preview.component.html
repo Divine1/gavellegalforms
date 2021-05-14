@@ -38,7 +38,25 @@ Registration Fee
 <h3 class="textcenter">Leave and license agreement</h3>
 <div class="textcenter">Between</div>
 <div>
-Name : {{form.first}} {{form.last}}, Age: About  Years, Gender: , having UID , PAN  . Residing at: , , , , , 
-Phone number : , email : 
+Name : {{form.licensor.fullname}}, Age: About {{form.licensor.age}} Years, Gender: {{form.licensor.gender}}, having UID {{form.licensor.uid}}, PAN {{form.licensor.pan}}. Residing at: {{form.licensor.address}}, {{form.licensor.city}}, {{form.licensor.pincode}}
+Phone number : {{form.licensor.phone}}, email : {{form.licensor.email}}
 </div>
+<div class="height-10"></div>
+<div>
+HEREINAFTER called 'the Licensor' (which expression shall mean and include the Licensor above named and also his/her/their respective heirs, successors, assigns, executors and administrators)
+</div>
+<div class="textcenter">AND</div>
+<div>
+Name : {{form.licensee.fullname}}, Age: About {{form.licensee.age}} Years, Gender: {{form.licensee.gender}}, having UID {{form.licensee.uid}}, PAN {{form.licensee.pan}}. Residing at: {{form.licensee.address}}, {{form.licensee.pincode}}
+Phone number : {{form.licensee.phone}}, email : {{form.licensee.email}}
+</div>
+<div class="height-10"></div>
+<div>
+HEREINAFTER called 'the Licensee' (which expression shall mean and include only Licensee above named).
+</div>
+<div class="height-10"></div>
+<div>
+WHEREAS the Licensor is absolutely seized and possessed of and or otherwise well and sufficiently entitled to all that constructed portion being unit described in Schedule I hereunder written and are hereafter for the sake of brevity called or referred to as Licensed Premises and is/are desirous of giving the said premises on Leave and License basis under Section 24 of the Maharashtra Rent Control Act, 1999.
+</div>
+
 <!-- <div>{{form | json}}</div> -->
